@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import Header from "@/Components/Header"
+import Footer from "@/Components/Footer"
 
 const Page = () => {
   //useState lay iniitilize garxa
@@ -13,7 +14,7 @@ const Page = () => {
 
   return (
     <>
-    <Header
+    <Header/>
       <h1 className="font-bold text-red-500">I am called {name}.</h1>
       <button 
         onClick={handleChangeName} 
